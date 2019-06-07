@@ -12,6 +12,7 @@
 /* resturant list */
 .resturant_list_container {
     padding: 10px 0;
+    margin: 10px 0 0 0;
 }
 .resturant_list_container .resturant_list_title {
     font-size: 23px;
