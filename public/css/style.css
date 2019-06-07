@@ -25,14 +25,18 @@
     margin: 5px;
     padding: 5px;
     border: 1px solid #ccc;
-    box-shadow: 5px 10px 10px #eee;
+    box-shadow: 3px 3px 10px #eee;
     width: 170px;
+    cursor: default;
 }
 .resturant_list_container .delete_item {
     height: 23px;
     width: 23px;
     float: right;
     cursor: pointer;
+}
+.resturant_list_container .delete_item:hover .icon {
+    background-image: url(/images/delete_black.svg);
 }
 .resturant_list_container .delete_item .icon {
     height: 23px;
