@@ -1,0 +1,40 @@
+.h_flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+.v_flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+/* resturant list */
+.resturant_list_container {
+    padding: 10px;
+}
+.resturant_list_container .resturant_list_title {
+    font-size: 23px;
+    font-weight: bold;
+}
+.resturant_list_container .resturant_item {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px 10px #eee;
+    width: 170px;
+}
+.resturant_list_container .delete_item {
+    height: 23px;
+    width: 23px;
+}
+.resturant_list_container .delete_item .icon {
+    height: 23px;
+    width: 23px;
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+    background-image: url(/images/delete.svg);
+    background-position: center;
+    padding: 5px;
+}
+/* end of resturant list */
