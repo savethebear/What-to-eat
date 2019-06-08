@@ -1,3 +1,4 @@
+/* common */
 .h_flex {
     display: -ms-flexbox;
     display: flex;
@@ -8,21 +9,23 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
-/* resturant list */
-.resturant_list_container {
+.section_container {
     padding: 10px 0;
     margin: 10px 0 0 0;
 }
-.resturant_list_container .resturant_list_title {
+.section_title {
     font-size: 23px;
     font-weight: bold;
 }
-.resturant_list_container .resturant_list {
+/* end of common */
+
+/* resturant list */
+.section_container .resturant_list {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
 }
-.resturant_list_container .resturant_item {
+.section_container .resturant_item {
     margin: 5px;
     padding: 5px;
     border: 1px solid #ccc;
@@ -30,16 +33,16 @@
     width: 170px;
     cursor: default;
 }
-.resturant_list_container .delete_item {
+.section_container .delete_item {
     height: 23px;
     width: 23px;
     float: right;
     cursor: pointer;
 }
-.resturant_list_container .delete_item:hover .icon {
+.section_container .delete_item:hover .icon {
     background-image: url(/images/delete_black.svg);
 }
-.resturant_list_container .delete_item .icon {
+.section_container .delete_item .icon {
     height: 23px;
     width: 23px;
     background-size: 13px 13px;
@@ -48,4 +51,24 @@
     background-position: center;
     padding: 5px;
 }
+.section_seperator {
+    margin: 10px 0 20px 0;
+    border-top: 1px solid #ccc;
+}
 /* end of resturant list */
+
+/* selector section */
+.resturant_selector_container .selector {
+    margin: 10px 0;
+}
+.resturant_selector_container .selected_choices {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+.resturant_selector_container .selected_choices .result_row {
+    padding: 5px 0;
+}
+.resturant_selector_container .selected_choices .result_id {
+    font-size: 18px;
+}
+/* end of selector */
