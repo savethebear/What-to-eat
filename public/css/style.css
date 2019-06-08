@@ -72,3 +72,9 @@
     font-size: 18px;
 }
 /* end of selector */
+
+/* map stuff */
+#map {
+    height: 600px;
+}
+/* end of map stuff */
